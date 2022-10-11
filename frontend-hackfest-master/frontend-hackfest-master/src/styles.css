@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #000;
+  --primary-text-color: #e31c79;
+  --secondary-color: #9ca3af;
+  --navbar-color: #f4f4f4;
+  --sidebar-color: #f9fafb;
+  --white-color: #fff;
+  --shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16);
+  --border-color: rgba(225, 228, 232, 1);
+  --submit-hover-color: #656865;
+  --start-color: #7928ca;
+  --end-color: #ff0080;
+  --error-message-color: #dc2626;
+  --error-message-bg-color: #fee2e2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+#root {
+  width: 100%;
+}
+
+iframe {
+  display: none !important;
+}
+
+body {
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+iframe {
+  display: none !important;
+}
+
+.header {
+  height: 20px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main-container {
+  display: flex;
+}
+
+/* right content */
+.content-wrapper {
+  flex-grow: 1;
+  margin: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.Card--shadow-default,
+.bg-secondary-lightest {
+  box-shadow: none !important;
+}
+
+.PageHeader-wrapper {
+  background-color: var(--white-color);
+}
+
+.bg-secondary-lightest {
+  box-shadow: var(--shadow);
+}
+
+.Collapsible {
+  background: none;
+}
+
+.cta {
+  color: var(--primary-jal);
+}
+
+.Popover[data-hide='true'] {
+  visibility: visible !important;
+  pointer-events: none;
+}
+
+.submmit-btn {
+  transition: 0.2s;
+}
+
+.submmit-btn:hover {
+  background-color: var(--submit-hover-color);
+}
+
+.invert {
+  color: var(--primary-text-color);
+  font-family: 'Merriweather', serif;
+}
+
+.lg {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.bg-secondary-lightest {
+  background: none !important;
+}
+
+.rt-td {
+  display: flex !important;
+  justify-content: center !important;
+}

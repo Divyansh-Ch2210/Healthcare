@@ -1,0 +1,17 @@
+.stick-left {
+  position: sticky;
+  margin: 1rem 0;
+}
+
+.Collapsible-body {
+  overflow-x: hidden;
+  background-color: white;
+  border-radius: 0.8rem;
+  flex-grow: 0;
+}
+
+.MenuItem {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 600px) {
+}

@@ -1,0 +1,21 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  z-index: 10000;
+}
+
+.Icon {
+  cursor: pointer;
+}
+
+.err-msg {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  color: var(--error-message-color);
+  background-color: var(--error-message-bg-color);
+  border: 1px solid var(--error-message-color);
+  border-radius: 4px;
+}
